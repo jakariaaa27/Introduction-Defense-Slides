@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+    /* Ubah tata letak header saat lebar layar kurang dari atau sama dengan 768px */
+    .text-box {
+      padding: 10px;
+    }
+
+    /* Ubah tata letak info-section saat lebar layar kurang dari atau sama dengan 768px */
+    .info-section {
+      padding: 30px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* Ubah tata letak header saat lebar layar kurang dari atau sama dengan 480px */
+    .text-box {
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    /* Ubah tata letak info-section saat lebar layar kurang dari atau sama dengan 480px */
+    .info-section {
+      padding: 20px;
+    }
+  }
+
+/* Gaya umum */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: url('abstract-image.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+
+  .header .title {
+    font-size: 48px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 30px;
+  }
+  
+  .header .title p{
+    font-size: 15px;
+    color: #E9E3E2;
+  }
+
+/* Informasi Siswa */
+.student-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.highlight {
+  background-color: #E9E3E2;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+.content-abstract {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.highlight h2 {
+  margin: 0;
+}
+
+.centered-iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
