@@ -4,6 +4,10 @@
       padding: 10px;
     }
 
+    .content-v iframe {
+        width: 100%;
+    }
+
     /* Ubah tata letak info-section saat lebar layar kurang dari atau sama dengan 768px */
     .info-section {
       padding: 30px;
