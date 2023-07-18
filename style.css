@@ -82,7 +82,7 @@ body {
 
 .centered-iframe {
     display: block;
-    margin: 0 auto;
+    margin: auto;
   }
 
 .content {
